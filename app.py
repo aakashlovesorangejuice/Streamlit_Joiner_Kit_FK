@@ -61,7 +61,7 @@ def process_query(q):
 # ---------------------------
 # 3. UI LAYOUT
 # ---------------------------
-# st.set_page_config(page_title="Reverse SOP Bot", layout="centered")
+st.set_page_config(page_title="Reverse SOP Bot", layout="centered")
 
 st.markdown("""
     <style>
@@ -105,7 +105,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("Reverse SOP Knowledge Bot")
+# st.title("Reverse SOP Knowledge Bot")
 
 # Render Chat History
 for msg in st.session_state.messages:
