@@ -61,7 +61,7 @@ def process_query(q):
 # ---------------------------
 # 3. UI LAYOUT
 # ---------------------------
-st.set_page_config(page_title="Reverse SOP Bot", layout="centered")
+# st.set_page_config(page_title="Reverse SOP Bot", layout="centered")
 
 st.markdown("""
     <style>
